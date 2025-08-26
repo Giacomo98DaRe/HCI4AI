@@ -26,7 +26,7 @@ This approach aims to provide medical students with an interpretable tool to und
 📁 data/                # Sample chest X-ray images
 📁 data_preparation/    # Pre-training of the CNN model
 📁 notebook/            # Scripts for Grad-CAM (hc4ai_gradcam.ipynb) and Shapley (hc4ai_shapley.ipynb)
-📁 output/              # Generated outputs (heatmaps, Shapley plots)
+📁 output/              # Generated outputs 
 📁 src/                 # Source code (.py)
 📁 results/             # Final report (PDF) and demo video
 📄 environment.yml      # .yaml to show conda environment spec
@@ -39,9 +39,10 @@ This approach aims to provide medical students with an interpretable tool to und
 
 - `hc4ai_gradcam.py` → Implementation of **Grad-CAM** to visualize pretrained CNN attention. 
 - `hc4ai_gradcam_xception.py` → Implementation of **Grad-CAM** to visualize Xception (from Keras) attention.  
-- `hc4ai_shapley.py` → Use of **SHAP** library to compute Shapley values for local explanations.  
 
 Outputs are automatically saved under `output/`.
+
+- `hc4ai_shapley.py` → Use of **SHAP** library to compute Shapley values for local explanations.  
 
 ---
 
